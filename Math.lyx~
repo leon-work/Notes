@@ -1,0 +1,896 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset Formula $\rho_{0}$
+\end_inset
+
+
+\begin_inset Formula $\rho^{'}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\rho\,\frac{d\nu}{dt}=-\frac{\partial P}{\partial x}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $-\frac{\partial}{\partial x}(\rho\nu)=\frac{\partial\rho}{\partial t}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $dP=c^{2}d\rho$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\gamma$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+full differential:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\frac{dv}{dt}=(\frac{\partial\boldsymbol{v}}{\partial t}+v\frac{\partial v}{\partial x})$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\nabla=\frac{\partial}{\partial x}\vec{i}+\frac{\partial}{\partial y}\vec{j}+\frac{\partial}{\partial z}\vec{k}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\frac{d\boldsymbol{v}}{dt}=\frac{\partial\boldsymbol{v}}{\partial t}+(\boldsymbol{v}\cdot\nabla)\boldsymbol{v}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\rho[\frac{\partial\boldsymbol{v}}{\partial t}+(\boldsymbol{v}\cdot\nabla)\boldsymbol{v}]=-\nabla p+\mu\nabla^{2}\boldsymbol{v}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Delta f=\nabla^{2}f=\frac{\partial^{2}f}{\partial x^{2}}+\frac{\partial^{2}f}{\partial y^{2}}+\frac{\partial^{2}f}{\partial z^{2}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\frac{\partial}{\partial t}(\rho\epsilon+\frac{1}{2}\rho\lvert\boldsymbol{v}\lvert^{2})=-\nabla\cdot[-k\nabla T-\boldsymbol{v}\cdot\sigma^{'}+(\rho h+\frac{1}{2}\rho\lvert\boldsymbol{v}\lvert^{2})\boldsymbol{v}]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\lvert d\lvert$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\mathcal{E}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $d\mathcal{E}=dQ-dW+(h+\frac{\lvert\boldsymbol{v}\rvert^{2}}{2})dM$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $d\mathcal{E}=d(\rho\epsilon+\frac{1}{2}\rho\lvert\boldsymbol{v}\rvert^{2})dxdydz$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Sigma\frac{dQ}{dt}=-\nabla\cdot(k\nabla T)dxdydz$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\delta_{k}=\sqrt{\frac{2k}{\omega\rho c_{p}}}=\sqrt{\frac{2\kappa}{\omega}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\delta_{\nu}=\sqrt{\frac{2\mu}{\omega\rho}}=\sqrt{\frac{2\nu}{\omega}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $i\omega\rho_{1}+\nabla\cdot(\rho_{m}\boldsymbol{v}_{1})=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $i\omega\rho_{1}+\frac{d\rho_{m}}{dx}u_{1}+\rho_{m}\nabla\cdot\boldsymbol{v}_{1}=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $dp=\rho\Re dT+\Re Td\rho$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $p_{1}=\rho_{m}\Re T_{1}+\Re T_{m}\rho_{1}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $i\omega\rho_{m}u_{1}=-\frac{dp_{1}}{dx}+\mu(\frac{\partial^{2}u_{1}}{\partial y^{2}}+\frac{\partial^{2}u_{1}}{\partial z^{2}})$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $i\omega\rho_{m}c_{p}T_{1}+\rho_{m}c_{p}\frac{dT_{m}}{dx}u_{1}=i\omega p_{1}+k(\frac{\partial^{2}T_{1}}{\partial y^{2}}+\frac{\partial^{2}T_{1}}{\partial z^{2}})$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\bar{H}_{2}$
+\end_inset
+
+
+\begin_inset Formula $\langle u_{1}\rangle$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $c_{1}(\phi)=1268-3545\phi+2544\phi^{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $c_{2}(\phi)=-2.82+10.7\phi-8.6\phi^{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $b(\phi)=3.81-11.29\phi+9.47\phi^{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $Re_{1}=4\lvert\langle u_{1}\rangle\rvert r_{h}\rho_{m}/\mu_{m}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\varepsilon_{s}=\phi\rho_{m}c_{p,m}/(1-\phi)\rho_{s,m}c_{s,m}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\varepsilon_{h}=8ir_{h}^{2}/b(\phi)\sigma^{1/3}\delta_{\kappa}^{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\delta_{\kappa}=2K_{m}/\omega\rho_{m}c_{p,m}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\theta_{p}=phase(\langle u_{1}\rangle)-phase(p_{1})$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\theta_{r}=phase(\langle u_{1}\rangle)-phase(\langle T\rangle_{u,1})$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $g_{c}=\frac{2}{\pi}\int_{0}^{\pi/2}\frac{dz}{1+Re_{1}^{3/5}\cos^{3/5}(z)}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $g_{v}=-\frac{2}{\pi}\int_{0}^{\pi/2}\frac{\cos(2z)dz}{1+Re_{1}^{3/5}\cos^{3/5}(z)}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align*}
+c_{1}(\phi)= & 1268-3545\phi+2544\phi^{2}\\
+c_{2}(\phi)= & -2.82+10.7\phi-8.6\phi^{2}\\
+b(\phi)= & 3.81-11.29\phi+9.47\phi^{2}\\
+Re_{1}= & 4\lvert\langle u_{1}\rangle\rvert r_{h}\rho_{m}/\mu_{m}\\
+\varepsilon_{s}= & \phi\rho_{m}c_{p,m}/(1-\phi)\rho_{s,m}c_{s,m}\\
+\varepsilon_{h}= & 8ir_{h}^{2}/b(\phi)\sigma^{1/3}\delta_{\kappa}^{2}\\
+\delta_{\kappa}= & 2K_{m}/\omega\rho_{m}c_{p,m}\\
+\theta_{p}= & phase(\langle u_{1}\rangle)-phase(p_{1})\\
+\theta_{r}= & phase(\langle u_{1}\rangle)-phase(\langle T\rangle_{u,1})\\
+g_{c}= & \frac{2}{\pi}\int_{0}^{\pi/2}\frac{dz}{1+Re_{1}^{3/5}\cos^{3/5}(z)}\\
+g_{v}= & -\frac{2}{\pi}\int_{0}^{\pi/2}\frac{\cos(2z)dz}{1+Re_{1}^{3/5}\cos^{3/5}(z)}
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\frac{dp_{1}}{dx}=-i\omega\rho_{m}[1+\frac{(1-\phi)^{2}}{2(2\phi-1)}]\langle u_{1}\rangle-\frac{\mu_{m}}{r_{h}^{2}}[\frac{c_{1}(\phi)}{8}+\frac{c_{2}(\phi)Re_{1}}{3\pi}]\langle u_{1}\rangle$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\frac{d\langle u_{1}\rangle}{dx}=-\frac{i\omega\gamma_{m}}{\rho_{m}a_{m}^{2}}p_{1}+\beta_{m}\frac{dT_{m}}{dx}\langle u_{1}\rangle+i\omega\beta_{m}[\frac{T_{m}\beta_{m}}{\rho_{m}c_{p,m}}\frac{\varepsilon_{s}+(g_{c}+e^{2i\theta_{p}}g_{v})\varepsilon_{h}}{1+\varepsilon_{s}+(g_{c}+e^{2i\theta_{T}}g_{v})\varepsilon_{h}}p_{1}-\frac{1}{i\omega}\frac{dT_{m}}{dx}\frac{\varepsilon_{s}+(g_{c}-g_{v})\varepsilon_{h}}{1+\varepsilon_{s}+(g_{c}+e^{2i\theta_{T}}g_{v})\varepsilon_{h}}\langle u_{1}\rangle]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\frac{dT_{m}}{dx}=\left\{ \mathrm{Re}[(T_{m}\beta_{m}\frac{\varepsilon_{s}+(g_{c}+e^{2i\theta_{p}}g_{v})\varepsilon_{h}}{1+\varepsilon_{s}+(g_{c}+e^{2i\theta_{T}}g_{v})\varepsilon_{h}}+1-T_{m}\beta_{m})p_{1}\langle\bar{u}_{1}\rangle]-\frac{2\bar{H}_{2}}{\phi A}\right\} /\left\{ \frac{\rho_{m}c_{p,m}}{\omega}\times\mathrm{Im}[\frac{\varepsilon_{s}+(g_{c}-g_{v})\varepsilon_{h}}{1+\varepsilon_{s}+(g_{c}+e^{2i\theta_{T}}g_{v})\varepsilon_{h}}]\langle u_{1}\rangle\langle\bar{u}_{1}\rangle+2K_{eff}\frac{1-\phi}{\phi}\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align*}
+\frac{dp_{1}}{dx}= & -i\omega\rho_{m}[1+\frac{(1-\phi)^{2}}{2(2\phi-1)}]\langle u_{1}\rangle-\frac{\mu_{m}}{r_{h}^{2}}[\frac{c_{1}(\phi)}{8}+\frac{c_{2}(\phi)Re_{1}}{3\pi}]\langle u_{1}\rangle\\
+\frac{d\langle u_{1}\rangle}{dx}= & -\frac{i\omega\gamma_{m}}{\rho_{m}a_{m}^{2}}p_{1}+\beta_{m}\frac{dT_{m}}{dx}\langle u_{1}\rangle+i\omega\beta_{m}[\frac{T_{m}\beta_{m}}{\rho_{m}c_{p,m}}\frac{\varepsilon_{s}+(g_{c}+e^{2i\theta_{p}}g_{v})\varepsilon_{h}}{1+\varepsilon_{s}+(g_{c}+e^{2i\theta_{T}}g_{v})\varepsilon_{h}}p_{1}\\
+ & -\frac{1}{i\omega}\frac{dT_{m}}{dx}\frac{\varepsilon_{s}+(g_{c}-g_{v})\varepsilon_{h}}{1+\varepsilon_{s}+(g_{c}+e^{2i\theta_{T}}g_{v})\varepsilon_{h}}\langle u_{1}\rangle]\\
+\frac{dT_{m}}{dx}= & \left\{ \mathrm{Re}[(T_{m}\beta_{m}\frac{\varepsilon_{s}+(g_{c}+e^{2i\theta_{p}}g_{v})\varepsilon_{h}}{1+\varepsilon_{s}+(g_{c}+e^{2i\theta_{T}}g_{v})\varepsilon_{h}}+1-T_{m}\beta_{m})p_{1}\langle\bar{u}_{1}\rangle]-\frac{2\bar{H}_{2}}{\phi A}\right\} /\\
+ & \left\{ \frac{\rho_{m}c_{p,m}}{\omega}\times\mathrm{Im}[\frac{\varepsilon_{s}+(g_{c}-g_{v})\varepsilon_{h}}{1+\varepsilon_{s}+(g_{c}+e^{2i\theta_{T}}g_{v})\varepsilon_{h}}]\langle u_{1}\rangle\langle\bar{u}_{1}\rangle+2K_{eff}\frac{1-\phi}{\phi}\right\} 
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\frac{dp_{1}}{dx}=\{-i\omega\rho_{m}[1+\frac{(1-\phi)^{2}}{2(2\phi-1)}]-\frac{\mu_{m}}{r_{h}^{2}}[\frac{c_{1}(\phi)}{8}+\frac{c_{2}(\phi)Re_{1}}{3\pi}]\}\langle u_{1}\rangle$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\frac{d\langle u_{1}\rangle}{dx}=-\frac{i\omega\gamma_{m}}{\rho_{m}a_{m}^{2}}*p_{1}+\frac{i\omega}{\rho_{m}c_{p}}[\varepsilon_{s}+(g_{c}+e^{2i\theta_{p}}g_{v})\varepsilon_{h}]\frac{p_{1}}{T_{m}}+[1-\varepsilon_{s}-(g_{c}-g_{v})\varepsilon_{h}]\frac{\langle u_{1}\rangle}{T_{m}}\frac{dT_{m}}{dx}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\frac{dT_{m}}{dx}=\{[\frac{-2\bar{H}_{2}}{\phi A}+\mathrm{Re}(p_{1}\langle\bar{u}_{1}\rangle\times(\varepsilon_{s}+(g_{c}+e^{2i\theta_{p}}g_{v})\varepsilon_{h})]/\{\frac{\rho_{m}c_{p,m}}{\omega}\times\mathrm{Im}[\varepsilon_{s}+(g_{c}-g_{v})\varepsilon_{h}]\langle u_{1}\rangle\langle\bar{u}_{1}\rangle+2\frac{k_{se}(1-\phi)}{\phi+k_{m}}\}\}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align*}
+\frac{dp_{1}}{dx}= & -i\omega\rho_{m}[1+\frac{(1-\phi)^{2}}{2(2\phi-1)}]\langle u_{1}\rangle-\frac{\mu_{m}}{r_{h}^{2}}[\frac{c_{1}(\phi)}{8}+\frac{c_{2}(\phi)Re_{1}}{3\pi}]\langle u_{1}\rangle\\
+\frac{d\langle u_{1}\rangle}{dx}= & -\frac{i\omega\gamma_{m}}{\rho_{m}a_{m}^{2}}p_{1}+\frac{i\omega}{\rho_{m}c_{p}}[\varepsilon_{s}+(g_{c}+e^{2i\theta_{p}}g_{v})\varepsilon_{h}]\frac{p_{1}}{T_{m}}+[1-\varepsilon_{s}-(g_{c}-g_{v})\varepsilon_{h}]\frac{\langle u_{1}\rangle}{T_{m}}\frac{dT_{m}}{dx}\\
+\frac{dT_{m}}{dx}= & \{\mathrm{Re}[(\varepsilon_{s}+(g_{c}+e^{2i\theta_{p}}g_{v})\varepsilon_{h})p_{1}\langle\bar{u}_{1}\rangle]-\frac{2\bar{H}_{2}}{\phi A}\}/\\
+ & \{\frac{\rho_{m}c_{p,m}}{\omega}\times\mathrm{Im}[\varepsilon_{s}+(g_{c}-g_{v})\varepsilon_{h}]\langle u_{1}\rangle\langle\bar{u}_{1}\rangle+2\frac{k_{se}(1-\phi)}{\phi+k_{m}}\}
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\simeq$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\xi\left(\boldsymbol{r},t\right)\simeq\xi_{m}(\boldsymbol{r})+\mathrm{Re}[\xi_{1}(\boldsymbol{r})e^{i\omega t}]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\frac{dp_{1}}{dx}=i\omega\rho_{eff}\langle u_{1}\rangle-\Phi\langle u_{1}\rangle$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\frac{heat\,flux}{wetted\,area}=(T_{s}-\frac{\langle\rho c_{p}uT\rangle}{\langle\rho c_{p}u\rangle})h$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\rho c_{p}\frac{\partial T}{\partial t}-T\beta\frac{\partial p}{\partial t}+\rho c_{p}\nu\cdot\nabla T-T\beta\nu\cdot\nabla p=\nabla\cdot(K\nabla T)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\langle T\rangle\simeq\langle T\rangle_{u}\equiv\frac{\langle uT\rangle}{\langle u\rangle}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $dS=\frac{dQ}{T}+s\,dM+(dS)_{gen};(dS)_{gen}\geq0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\rho T(\frac{\partial s}{\partial t}+\boldsymbol{v}\cdot\nabla s)=\nabla\cdot k\nabla T+(\sigma'\cdot\nabla)\cdot\boldsymbol{v}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\beta\equiv-\frac{1}{\rho}(\frac{\partial\rho}{\partial T})_{p}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $x_{1},x_{2},...,x_{n}\in\mathbb{R^{d}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $f(x_{1}),f(x_{2}),...,f(x_{n})$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+s_{n}(x)=\sum_{i=1}^{n}\lambda_{i}\phi\left(\|\mathbf{x}-\boldsymbol{x}_{i}\|\right)+p\left(x\right),x\in\mathbb{R^{d}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\|x-x_{i}\|$
+\end_inset
+
+
+\begin_inset Formula $\phi\left(\boldsymbol{x},\boldsymbol{x}_{i}\right)=\phi\left(\|\boldsymbol{x}-\boldsymbol{x}_{i}\|\right)=\phi\left(r\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\lambda_{i}\in\mathbb{R^{d}}$
+\end_inset
+
+
+\begin_inset Formula $\phi\left(r\right)=e^{-\left(\frac{r}{c}\right)^{2}}$
+\end_inset
+
+
+\begin_inset Formula $\phi\left(r\right)=\sqrt{r^{2}+c^{2}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\varPhi\in\mathbb{R}^{n\times n},\varPhi_{ij}=\phi\left(\|x_{i}-x_{j}\|\right),i,j=1,...,n.$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\begin{bmatrix}\phi\left(\|x_{1}-x_{1}\|\right) & \phi\left(\|x_{1}-x_{2}\|\right) & \cdots & \phi\left(\|x_{1}-x_{n}\|\right)\\
+\phi\left(\|x_{2}-x_{1}\|\right) & \phi\left(\|x_{2}-x_{2}\|\right) & \cdots & \phi\left(\|x_{2}-x_{n}\|\right)\\
+\vdots & \vdots & \ddots & \vdots\\
+\phi\left(\|x_{n}-x_{1}\|\right) & \phi\left(\|x_{n}-x_{2}\|\right) & \cdots & \phi\left(\|x_{n}-x_{n}\|\right)
+\end{bmatrix}\begin{bmatrix}\lambda_{1}\\
+\lambda_{2}\\
+\vdots\\
+\lambda_{n}
+\end{bmatrix}=\begin{bmatrix}f\left(x_{1}\right)\\
+f\left(x_{2}\right)\\
+\vdots\\
+f\left(x_{n}\right)
+\end{bmatrix}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\varPhi_{n\times n}=\begin{bmatrix}\phi\left(\|x_{1}-x_{1}\|\right) & \phi\left(\|x_{1}-x_{2}\|\right) & \cdots & \phi\left(\|x_{1}-x_{n}\|\right)\\
+\phi\left(\|x_{2}-x_{1}\|\right) & \phi\left(\|x_{2}-x_{2}\|\right) & \cdots & \phi\left(\|x_{2}-x_{n}\|\right)\\
+\vdots & \vdots & \ddots & \vdots\\
+\phi\left(\|x_{n}-x_{1}\|\right) & \phi\left(\|x_{n}-x_{2}\|\right) & \cdots & \phi\left(\|x_{n}-x_{n}\|\right)
+\end{bmatrix}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $P\in\mathbb{R}^{n\times\left(d+1\right)}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $F,\lambda\in\mathbb{R}^{n}$
+\end_inset
+
+
+\begin_inset Formula $C\in\mathbb{R}^{d+1}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+P_{n\times\left(d+1\right)}=\begin{bmatrix}1 & x_{1}^{T}\\
+1 & x_{2}^{T}\\
+\vdots & \vdots\\
+1 & x_{n}^{T}
+\end{bmatrix}=\begin{bmatrix}1 & x_{11} & x_{12} & \cdots & x_{1d}\\
+1 & x_{21} & x_{22} & \cdots & x_{2d}\\
+\vdots & \vdots & \vdots & \ddots & \vdots\\
+1 & x_{n1} & x_{n2} & \cdots & x_{nd}
+\end{bmatrix}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+F=\begin{bmatrix}f\left(x_{1}\right)\\
+f\left(x_{2}\right)\\
+\vdots\\
+f\left(x_{n}\right)
+\end{bmatrix}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+F=\begin{bmatrix}f\left(x_{1}\right)\\
+f\left(x_{2}\right)\\
+\vdots\\
+f\left(x_{n}\right)
+\end{bmatrix},\lambda=\begin{bmatrix}\lambda_{1}\\
+\lambda_{2}\\
+\vdots\\
+\lambda_{n}
+\end{bmatrix},C=\begin{bmatrix}c_{0}\\
+c_{1}\\
+\vdots\\
+c_{d}
+\end{bmatrix}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\begin{bmatrix}\varPhi_{n\times n} & P_{n\times\left(d+1\right)}\\
+P_{\left(d+1\right)\times n} & 0_{\left(d+1\right)\times\left(d+1\right)}
+\end{bmatrix}\centerdot\begin{bmatrix}\lambda_{n}\\
+c_{d+1}
+\end{bmatrix}=\begin{bmatrix}F_{n}\\
+0_{\left(d+1\right)}
+\end{bmatrix}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\begin{bmatrix}\begin{bmatrix}\phi\left(\|x_{1}-x_{1}\|\right) & \phi\left(\|x_{1}-x_{2}\|\right) & \cdots & \phi\left(\|x_{1}-x_{n}\|\right)\\
+\phi\left(\|x_{2}-x_{1}\|\right) & \phi\left(\|x_{2}-x_{2}\|\right) & \cdots & \phi\left(\|x_{2}-x_{n}\|\right)\\
+\vdots & \vdots & \ddots & \vdots\\
+\phi\left(\|x_{n}-x_{1}\|\right) & \phi\left(\|x_{n}-x_{2}\|\right) & \cdots & \phi\left(\|x_{n}-x_{n}\|\right)
+\end{bmatrix} & \begin{bmatrix}1 & x_{11} & x_{12} & \cdots & x_{1d}\\
+1 & x_{21} & x_{22} & \cdots & x_{2d}\\
+\vdots & \vdots & \vdots & \ddots & \vdots\\
+1 & x_{n1} & x_{n2} & \cdots & x_{nd}
+\end{bmatrix}\\
+\begin{bmatrix}1 & 1 & \cdots & 1\\
+x_{11} & x_{21} & \cdots & x_{n1}\\
+x_{12} & x_{22} & \cdots & x_{n2}\\
+\vdots & \vdots & \ddots & \vdots\\
+x_{1d} & x_{2d} & \cdots & x_{nd}
+\end{bmatrix} & 0_{\left(d+1\right)\times\left(d+1\right)}
+\end{bmatrix}\centerdot\begin{bmatrix}\begin{bmatrix}\lambda_{1}\\
+\lambda_{2}\\
+\vdots\\
+\lambda_{n}
+\end{bmatrix}\\
+\begin{bmatrix}c_{0}\\
+c_{1}\\
+\vdots\\
+c_{d}
+\end{bmatrix}
+\end{bmatrix}=\begin{bmatrix}\begin{bmatrix}f\left(x_{1}\right)\\
+f\left(x_{2}\right)\\
+\vdots\\
+f\left(x_{n}\right)
+\end{bmatrix}\\
+0_{\left(d+1\right)}
+\end{bmatrix}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+s_{n}(x)=\sum_{i=1}^{n}\lambda_{i}\epsilon^{3}\|x-x_{i}\|{}^{3}+p\left(x\right),x\in\mathbb{R^{d}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{\partial s\left(x\right)}{x_{j}}=\sum_{i=1}^{n}\lambda_{i}\epsilon^{3}\times3\times\|\boldsymbol{x}-\boldsymbol{x}_{i}\|\left(x_{j}-y_{ij}\right)+c_{j}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align*}
+F(\boldsymbol{x}) & =\|\boldsymbol{x}\|\\
+\frac{\partial F}{\partial x_{n}} & =\frac{x_{n}}{\|\boldsymbol{x}\|}
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $F\left(G\left(\boldsymbol{x}\right)\right)=\|\boldsymbol{x}-\boldsymbol{y}\|$
+\end_inset
+
+,
+\begin_inset Formula $G\left(\boldsymbol{x}\right)=\boldsymbol{x}-\boldsymbol{y}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{\partial F\circ G}{\partial x_{n}}(\boldsymbol{x})=\frac{x_{n}-y_{n}}{\|\boldsymbol{x}-\boldsymbol{y}\|}\frac{\partial G}{\partial x_{n}}(\boldsymbol{x})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $T\left[F\left(G\left(\boldsymbol{x}\right)\right)\right]=\|\boldsymbol{x}-\boldsymbol{y}\|^{3}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{\partial T\circ F\circ G}{\partial x_{n}}(\boldsymbol{x})=3*\|\boldsymbol{x}-\boldsymbol{y}\|^{2}\frac{x_{n}-y_{n}}{\|\boldsymbol{x}-\boldsymbol{y}\|}=3*\|\boldsymbol{x}-\boldsymbol{y}\|\left(x_{n}-y_{n}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align*}
+Minimize & F_{o}\left(\boldsymbol{x}\right)\\
+Subject\;to & F_{j}\left(\boldsymbol{x}\right)\leq1\:\left(j=1,...,M\right)\\
+ & A_{i}\leq x_{i}\leq B_{i}\:\left(i=1,...,N\right)
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\boldsymbol{x}_{i}=\left[x_{1},x_{2},...,x_{k}\right]^{T}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $Y=F\left(\boldsymbol{x}_{i}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $y=\beta_{0}+\beta_{1}x_{1}+\beta_{2}x_{2}+\beta_{12}x_{1}x_{2}+\beta_{11}x_{1}^{2}+\beta_{22}x_{2}^{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $y=\boldsymbol{\beta}\boldsymbol{x}+\epsilon$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\begin{bmatrix}1 & x_{11} & \cdots & x_{1d} & x_{11}x_{12} & \cdots & x_{1\left(d-1\right)}x_{1d} & x_{11}^{2} & \cdots & x_{1d}^{2} & \cdots\\
+1 & x_{21} & \cdots & x_{2d} & x_{21}x_{22} & \cdots & x_{2\left(d-1\right)}x_{2d} & x_{21}^{2} & \cdots & x_{2d}^{2} & \cdots\\
+\vdots & \vdots & \ddots & \vdots & \vdots & \ddots & \vdots & \vdots & \ddots & \vdots & \cdots\\
+1 & x_{n1} & \cdots & x_{nd} & x_{n1}x_{n2} & \cdots & x_{n\left(d-1\right)}x_{nd} & x_{n1}^{2} & \cdots & x_{nd}^{2} & \cdots
+\end{bmatrix}\centerdot\begin{bmatrix}\beta_{0}\\
+\beta_{1}\\
+\vdots\\
+\beta_{d}\\
+\beta_{12}\\
+\vdots\\
+\beta_{\left(d-1\right)d}\\
+\vdots
+\end{bmatrix}=\begin{bmatrix}f\left(\boldsymbol{x}_{1}\right)\\
+f\left(\boldsymbol{x}_{2}\right)\\
+\vdots\\
+f\left(\boldsymbol{x}_{n}\right)
+\end{bmatrix}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\begin{align*}
+f\left(x\right)= & x_{1}+x_{2}+x_{3}\\
+g_{1}\left(x\right)= & -1+0.0025\left(x_{4}+x_{6}\right)\leq0\\
+g_{2}\left(x\right)= & -1+0.0025\left(x_{5}+x_{7}-x_{4}\right)\leq0\\
+g_{3}\left(x\right)= & -1+0.01\left(x_{8}-x_{5}\right)\leq0\\
+g_{4}\left(x\right)= & -x_{1}x_{6}+833.33252x_{4}+100x_{1}-83333.333\leq0\\
+g_{5}\left(x\right)= & -x_{2}x_{7}+1250x_{5}+x_{2}x_{4}-1250x_{4}\leq0\\
+g_{6}\left(x\right)= & -x_{3}x_{8}+1250000+x_{3}x_{5}-2500x_{5}\leq0
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align*}
+\boldsymbol{V}_{i}^{t+1} & =\omega\boldsymbol{V}_{i}^{t}+\alpha\boldsymbol{\epsilon_{1}}\left(\boldsymbol{pbes}\boldsymbol{t}_{i}^{t}-\boldsymbol{x_{i}^{t}}\right)+\beta\boldsymbol{\epsilon_{2}}(\boldsymbol{gbes}\boldsymbol{t}_{i}^{t}-\boldsymbol{x_{i}^{t}})\\
+\boldsymbol{x}_{i}^{t+1} & =\boldsymbol{x}_{i}^{t}+\boldsymbol{V}_{i}^{t+1}\\
+\alpha,\beta & \in[0,1)
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
