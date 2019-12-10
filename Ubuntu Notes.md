@@ -56,8 +56,48 @@ im-config
 重启
 ```
 
-
 # Anaconda
+
+## ADD anaconda desktop
+
+```shell
+gedit anaconda-navigator.desktop
+# Then enter the follwoing
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Name=Anaconda
+Version=2.0
+Type=Application
+Exec=/home/USERNAME/anaconda3/bin/anaconda-navigator
+Icon=/home/USERNAME/anaconda3/lib/pythonVERSION/site-packages/anaconda_navigator/static/images/anaconda-icon-256x256.png
+Comment=Open Anaconda Navigator
+Terminal=false
+#  Move to local applications
+mv anaconda-navigator.desktop ~/.local/share/applications/
+```
+
+
+
+## Add Spyder desktop
+
+```shell
+gedit Spyder.desktop
+# Then enter the follwoing
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=Spyder
+Version=3.0
+Type=Application
+Exec=/home/chc-ubuntu/anaconda3/bin/spyder
+Icon=/home/chc-ubuntu/anaconda3/lib/python3.7/site-packages/anaconda_navigator/static/images/spyder-icon-1024x1024.png
+Comment=Open Spyder
+Terminal=false
+#  Move to local applications
+mv Spyder.desktop ~/.local/share/applications/
+```
+
+
 
 ## Install non-conda package
 
