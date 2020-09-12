@@ -1,5 +1,6 @@
-# Python Tips 
-##  I/O File
+# Python Tips
+
+## I/O File
 
 1. 创建文件并清空
 
@@ -30,6 +31,7 @@
       | [s]   | 字符串 （使用str转换任意Python对象|
 
    2. 字符串有两个的话，需要用括号
+
       ```python
       flag = {'Location': 'internal', 'Quality': 'good', 'size': 'small'}
       tau = 1.5
@@ -47,13 +49,16 @@
 ## Cprofile
 
 [`cProfile`](http://doc.codingdict.com/python_352/library/profile.html)建议大多数用户；它是一个C扩展，具有合理的开销，使其适合于分析长期运行的程序
+
 1. All analysis
+
    ```python
    python -m cProfile -o profile_output test1.py
    import pstats
    p = pstats.Stats('profile_output')
    p.sort_stats('cumulative').print_stats(20)
    ```
+
 2. block analysis
 
    ```python
@@ -64,8 +69,11 @@
    cp.disable()
    cp.print_stats()
    ```
+
 ## Multiprocessing
+
 ### Using a pool of workers
+
 The [Pool](https://docs.python.org/3/library/multiprocessing.html#multiprocessing.pool.Pool) class represents a pool of worker processes. It has methods which allows tasks to be offloaded to the worker processes in a few different ways.
 
 For example:
@@ -91,6 +99,7 @@ if __name__ == '__main__':
 ```
 
 ### apply_async
+
 >  apply_async(func[, args[, kwds[, callback[, error_callback]]]])
 >
 > *class* `multiprocessing.pool.` `AsyncResult`
@@ -102,6 +111,7 @@ if __name__ == '__main__':
 > ​	Return the result when it arrives. If timeout is not `None` and the result does not arrive within `timeout` seconds then `multiprocessing.TimeoutError` is raised. If the remote call raised an exception then that exception will be reraised by get().
 
 ### [starmap](https://docs.python.org/3/library/multiprocessing.html#multiprocessing.pool.Pool.starmap)
+
 > starmap(func, iterable[, chunksize]
 >
 > ​	Like [`map()`](https://docs.python.org/3/library/functions.html#map) except that the elements of the *iterable* are expected to be iterables that are unpacked as arguments.
@@ -115,8 +125,9 @@ if __name__ == '__main__':
 > ```
 
 
-# Python tricks
-## 产生连续编号的字符串
+## Python tricks
+
+### 产生连续编号的字符串
 
 ```python
 import numpy as np
@@ -126,6 +137,7 @@ for i in range (68):
 ```
 
 ##  Iterator & Generator
+
 ### [Generator](http://www.runoob.com/python3/python3-iterator-generator.html)
 
 在 Python 中，使用了 yield 的函数被称为生成器（generator）。
@@ -150,13 +162,50 @@ next(G)
 
 ```
 
-# Install pygmo
+## Install pygmo
 
-## Dependancies
+### Dependancies
 
 1. Boost
-   ```shell
-sudo apt-get install libboost-all-dev
-   ```
-2. 
 
+```shell
+   sudo apt-get install libboost-all-dev
+```
+
+## Matplotlib
+
+### Fig size
+
+1.0 text width
+
+11pt latex: 5.1191 inches
+
+12pt latex: 5.3975 inches
+
+0.8 text width: 
+
+```python
+fig, ax = plt.subplots(1, 1, figsize=(4, 4))
+```
+
+0.5 text width
+
+```python
+fig, ax = plt.subplots(1, 1, figsize=(2.38, 2.38))
+```
+
+### Use latex text
+
+```python
+mpl.rcParams['text.usetex'] = True
+mpl.rc('font', **{'family': "sans-serif"})
+params = {'text.latex.preamble': [r'\usepackage{amsmath}']}
+plt.rcParams.update(params)
+```
+
+### Marker size
+
+```python
+'$\u25A1$' -- h square
+'$\u25EF$' -- h circle
+```
