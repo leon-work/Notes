@@ -1,24 +1,29 @@
 # Git 教程
 
 ## 参考
+
 1. [Git详细教程-简书](https://www.jianshu.com/p/3d0d56d6f6d1)
 2. [廖雪峰](https://www.liaoxuefeng.com/wiki/896043488029600)
 3. [Git版本管理-莫烦](https://morvanzhou.github.io/tutorials/others/git/)
 4. [Git参考手册](http://gitref.justjavac.com/basic/#status)
 
 ## Notes
+
 1. 用户信息 git config user
+
 ```shell
 git config --global user.name "wyndam"
 git config --global user.email "only.night@qq.com"
 ```
 
 2. 新建本地仓库 git init
+
 ```shell
 git init
 ```
 
-3.  添加文件到缓存
+3. 添加文件到缓存
+
 ```shell
 git status -s    # 查看我们的项目的当前状态
 git add README hello.rb
@@ -26,12 +31,14 @@ git add .      # 添加所有文件
 ```
 
 4. 显示已写入缓存与已修改但尚未写入缓存的改动的区别
+
 ```shell
 git diff # 会以规范化的 diff 格式（一个补丁）显示自从你上次提交快照之后尚未缓存的所有更改。 
 git diff --cached # 会告诉你有哪些内容已经写入缓存了。 也就是说，此命令显示的是接下来要写入快照的内容。
 ```
 
-5.  记录缓存内容的快照
+5. 记录缓存内容的快照
+
 ```shell
 git commit -m 'my hola mundo changes'
 ```
@@ -43,16 +50,19 @@ git reset HEAD -- hello.rb
 ```
 
 7. 回退版本
+
 ```shell
 git reset --hard c503c
 ```
 
 8. 重命名
+
 ```shell
 git mv old_filename new_filename
 ```
 
 ## Angular 规范的 Commit message 格式
+
 每次提交，Commit message 都包括三个部分：Header，Body 和 Footer。
 
 > [type] [(scope)]: [subject] 

@@ -249,7 +249,15 @@ sudo cpan Log::Dispatch::File
    \providecommand{\DIFaddtex}[1]{{\protect\hl{#1}}} %DIF PREAMBLE
 
    ```
+   
 
+4. Option clash
+
+   ```latex
+   % \RequirePackage[stable]{footmisc} %DIF PREAMBLE  comment this package
+   ```
+
+   
 
 ### Equation 
 
